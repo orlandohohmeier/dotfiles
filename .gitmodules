@@ -7,3 +7,6 @@
 [submodule "homebrew"]
 	path = homebrew
 	url = https://github.com/Homebrew/install.git
+[submodule "dracula-vim"]
+	path = dracula-vim
+	url = https://github.com/dracula/vim.git
