@@ -9,7 +9,9 @@
     ~/.zimrc: .zimrc
     ~/.zshrc: .zshrc
     ~/.vimrc: .vimrc
-    ~/.vim/colors/dracula.vim: dracula-vim/colors/dracula.vim
+    ~/.vim/colors/dracula.vim: 
+        create: true
+        path: dracula-vim/colors/dracula.vim
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
