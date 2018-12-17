@@ -35,7 +35,7 @@
       },
       {
         "description": "Apply macOS configurations",
-        "command": "./.macos"
+        "command": "./🍏.sh"
       },
       {
         "description": "Install dracula terminal theme",
