@@ -17,4 +17,5 @@
   - [git submodule update --init --recursive, Installing submodules]
   - [./homebrew/install, Installing Homebrew]
   - [./🍏.sh, "Apply macOS configurations"]
+  - [./🍻.sh, "Installing fonts, tools, and apps"]
   - [cd ./dracula-terminal && ./install, Installing terminal theme]
