@@ -1,0 +1,46 @@
+[
+  {
+    "defaults": {
+      "link": {
+        "relink": true
+      }
+    }
+  },
+  {
+    "clean": ["~"]
+  },
+  {
+    "link": {
+      "~/.zim": { "path": "zim" },
+      "~/.zimrc": { "path": ".zimrc" },
+      "~/.zshrc": { "path": ".zshrc" },
+      "~/.vimrc": { "path": ".vimrc" },
+      "~/.vim/colors/dracula.vim": {
+        "create": true,
+        "path": "dracula-vim/colors/dracula.vim"
+      },
+      "~/Library/Application Support/Code/User": {
+        "force": true,
+        "path": "vscode"
+      }
+    },
+    "shell": [
+      {
+        "description": "Installing submodules",
+        "command": "git submodule update --init --recursive"
+      },
+      {
+        "description": "Installing Homebrew",
+        "command": "./homebrew/install"
+      },
+      {
+        "description": "Apply macOS configurations",
+        "command": "./.macos"
+      },
+      {
+        "description": "Install dracula terminal theme",
+        "command": "cd ./dracula-terminal && ./install"
+      }
+    ]
+  }
+]
