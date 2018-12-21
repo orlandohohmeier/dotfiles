@@ -34,8 +34,6 @@ defaults write com.apple.finder FXDefaultSearchScope -string "SCcf"
 # Use list view in all windows by default
 defaults write com.apple.finder FXPreferredViewStyle -string "Nlsv"
 
-killall Finder 
-
 # Dock
 ###############################################################################
 
@@ -55,8 +53,6 @@ defaults write com.apple.dock wvous-bl-modifier -int 0
 defaults write com.apple.dock wvous-br-corner -int 0
 defaults write com.apple.dock wvous-br-modifier -int 0
 
-killall Dock
-
 # Safari
 ###############################################################################
 
@@ -64,14 +60,11 @@ killall Dock
 defaults write com.apple.Safari UniversalSearchEnabled -bool false
 defaults write com.apple.Safari SuppressSearchSuggestions -bool true
 
-killall Safari
-
 # Mail
 ###############################################################################
 
 ## Disable inline attachments (just show the icons) in Mail
 defaults write com.apple.mail DisableInlineAttachmentViewing -bool true
-killall Mail
 
 # Terminal
 ###############################################################################
@@ -80,12 +73,8 @@ killall Mail
 # https://security.stackexchange.com/a/47786/8918
 defaults write com.apple.terminal SecureKeyboardEntry -bool true
 
-killall Terminal
-
 # Photos
 ###############################################################################
 
 # Prevent Photos from opening automatically when devices are plugged in
 defaults -currentHost write com.apple.ImageCapture disableHotPlug -bool true
-
-killall Photos

@@ -10,6 +10,12 @@ brew install autoconf
 brew install pkgconfig
 brew cask install docker
 
+# Language Support
+# -----------------------------------------------------------------------------
+brew install go
+brew install node
+brew install haskell-stack
+
 # Fonts
 # -----------------------------------------------------------------------------
 brew tap homebrew/cask-fonts    
