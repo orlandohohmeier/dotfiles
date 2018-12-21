@@ -13,3 +13,6 @@
 [submodule "dracula-terminal"]
 	path = dracula-terminal
 	url = https://github.com/orlandohohmeier/terminal-app.git
+[submodule "spacemacs"]
+	path = spacemacs
+	url = https://github.com/syl20bnr/spacemacs

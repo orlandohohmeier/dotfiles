@@ -19,6 +19,8 @@
         "create": true,
         "path": "dracula-vim/colors/dracula.vim"
       },
+      "~/.emacs.d": { "path": "spacemacs" },
+      "~/.spacemacs": { "path": ".spacemacs" },
       "~/Library/Application Support/Code/User": {
         "force": true,
         "path": "vscode"
