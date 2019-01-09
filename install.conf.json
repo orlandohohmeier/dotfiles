@@ -11,6 +11,7 @@
   },
   {
     "link": {
+      "~/.gitconfig": { "force": true, "path": ".gitconfig" },
       "~/.zim": { "path": "zim" },
       "~/.zimrc": { "path": ".zimrc" },
       "~/.zshrc": { "path": ".zshrc" },
