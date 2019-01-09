@@ -8,6 +8,7 @@
 # -----------------------------------------------------------------------------
 brew install autoconf
 brew install pkgconfig
+brew install dcos-cli
 brew cask install docker
 
 # Language Support
