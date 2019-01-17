@@ -8,6 +8,7 @@
 # -----------------------------------------------------------------------------
 brew install autoconf
 brew install pkgconfig
+brew install jq
 brew install python@3
 brew install dcos-cli
 brew cask install docker
