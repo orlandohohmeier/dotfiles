@@ -10,6 +10,7 @@ brew install autoconf
 brew install pkgconfig
 brew install jq
 brew install python@3
+brew install ffmpeg
 brew install awscli
 brew install dcos-cli
 brew cask install docker
