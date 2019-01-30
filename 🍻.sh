@@ -13,6 +13,7 @@ brew install python@3
 brew install ffmpeg
 brew install awscli
 brew install dcos-cli
+brew install kubernetes-cli
 brew cask install docker
 
 # Language Support
