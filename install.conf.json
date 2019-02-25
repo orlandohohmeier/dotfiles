@@ -25,6 +25,10 @@
       "~/Library/Application Support/Code/User": {
         "force": true,
         "path": "vscode"
+      },
+      "~/Library/Preferences/colors": {
+        "create": true,
+        "path": "dracula-jetbrains"
       }
     },
     "shell": [

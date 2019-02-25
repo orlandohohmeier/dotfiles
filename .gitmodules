@@ -16,3 +16,6 @@
 [submodule "spacemacs"]
 	path = spacemacs
 	url = https://github.com/syl20bnr/spacemacs
+[submodule "dracula-jetbrains"]
+	path = dracula-jetbrains
+	url = https://github.com/dracula/jetbrains.git
