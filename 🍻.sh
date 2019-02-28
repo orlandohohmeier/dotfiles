@@ -21,6 +21,7 @@ brew cask install docker
 brew install go
 brew install node
 brew install haskell-stack
+brew install rbenv
 
 # Fonts
 # -----------------------------------------------------------------------------

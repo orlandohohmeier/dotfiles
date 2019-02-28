@@ -9,3 +9,6 @@ export VIRTUALENVWRAPPER_PYTHON=/usr/local/bin/python3
 
 # Start zim
 [[ -s ${ZIM_HOME}/init.zsh ]] && source ${ZIM_HOME}/init.zsh
+
+# Load rbenv
+eval "$(rbenv init -)"
