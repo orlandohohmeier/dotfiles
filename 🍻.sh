@@ -12,9 +12,10 @@ brew install jq
 brew install python@3
 brew install ffmpeg
 brew install awscli
-brew install dcos-cli
 brew install kubernetes-cli
+brew install dcos-cli
 brew cask install docker
+brew cask install minikube
 
 # Language Support
 # -----------------------------------------------------------------------------
