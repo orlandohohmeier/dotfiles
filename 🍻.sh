@@ -13,6 +13,7 @@ brew install python@3
 brew install ffmpeg
 brew install awscli
 brew install kubernetes-cli
+brew install kubernetes-helm
 brew install dcos-cli
 brew cask install docker
 brew cask install minikube
