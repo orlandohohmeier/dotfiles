@@ -49,6 +49,10 @@
         "command": "./🍻.sh"
       },
       {
+        "description": "Python install libs and tools",
+        "command": "./🐍.sh"
+      },
+      {
         "description": "Install dracula terminal theme",
         "command": "cd ./dracula-terminal && ./install"
       }
