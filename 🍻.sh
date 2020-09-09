@@ -6,24 +6,36 @@
 
 # Libs, tools
 # -----------------------------------------------------------------------------
+brew tap homebrew/dupes
+brew install binutils
+brew install coreutils
+brew install automake
+brew install wget
+brew install gawk
+brew install libtool
+brew install help2man
+brew install gperf
+brew install --with-default-names gnu-sed
+brew install grep
 brew install autoconf
 brew install pkgconfig
-brew install jq
-brew install python@3
 brew install ffmpeg
 brew install awscli
 brew install kubernetes-cli
 brew install kubernetes-helm
-brew install dcos-cli
+brew install tfenv
+brew install kind
 brew cask install docker
-brew cask install minikube
 
 # Language Support
 # -----------------------------------------------------------------------------
 brew install go
+brew install protoc
 brew install node
 brew install haskell-stack
+brew install python@3
 brew install rbenv
+brew install jq
 
 # Fonts
 # -----------------------------------------------------------------------------
