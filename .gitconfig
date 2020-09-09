@@ -1,6 +1,7 @@
 [user]
   	name = Orlando Hohmeier
+	signingkey = 8BF176B26ED36A71
 [commit]
 	gpgsign = true
 [alias]
-	pr = "!f() { git fetch -fu ${2:-upstream} refs/pull/$1/head:pr/$1 && git checkout pr/$1; }; f"
+	pr = "!f() { git fetch -fu ${2:-origin} refs/pull/$1/head:pr/$1 && git checkout pr/$1; }; f"
